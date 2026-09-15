@@ -1,18 +1,18 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-% Resume built with Awesome-CV: https://github.com/posquit0/Awesome-CV
+% Generic CV - Neil Patterson
 
-\documentclass[11pt, letterpaper]{awesome-cv}
+\documentclass[12pt, letterpaper]{awesome-cv}
 
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.1cm, footskip=.5cm}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 \colorlet{awesome}{awesome-red}
 \setbool{acvSectionColorHighlight}{true}
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
 \name{Neil}{Patterson}
-\position{Software Engineering Manager}
+\position{Engineering Manager}
 \address{Hartford, Connecticut, USA}
-\mobile{+1~860~268~7961}
+\mobile{+1 860 268 7961}
 \email{nmpdesign@gmail.com}
 \github{neilmpatterson}
 \linkedin{neilmpatterson}
@@ -20,61 +20,112 @@
 \begin{document}
 
 \makecvheader
-\makecvfooter
-  {}
-  {Neil Patterson~~~\textperiodcentered~~~Resume}
-  {\thepage}
+\makecvfooter{}{}{\thepage}
 
-\cvsection{Profile}
+\cvsection{Summary}
 \begin{cvparagraph}
-Software Engineering Manager with 20+ years of experience building scalable web applications and leading distributed engineering teams across the US, Europe, and India. Combines deep Ruby on Rails and JavaScript expertise with a track record of developing engineers and technical leaders, improving reliability, and delivering complex SaaS product initiatives.
+Technical Engineering Manager with 20+ years of software engineering experience leading distributed teams and building mature SaaS platforms. Managed up to four engineering teams and 17 engineers and contractors across the US, Europe, and India, with deep experience in Ruby on Rails, engineering reliability, global team development, and organizational change. Combines hands-on technical leadership with a track record of developing engineers, improving engineering practices, and delivering product initiatives with measurable customer and business impact.
 \end{cvparagraph}
 
 \cvsection{Core Competencies}
-\begin{cvskills}
-  \cvskill{Engineering Leadership}{Engineering management, global teams, hiring, performance management, coaching, career development, Agile delivery, and stakeholder alignment}
-  \cvskill{Architecture and Delivery}{System design, scalable SaaS applications, reliability, incident management, observability, CI/CD, automated testing, and technical debt management}
-  \cvskill{Application Development}{Ruby, Ruby on Rails, JavaScript, React, Next.js, APIs, GraphQL, AI-assisted development, AI agents, MCP, accessibility, and responsive design}
-  \cvskill{Data and Platforms}{PostgreSQL, MongoDB, MySQL, Docker, Kubernetes, Helm, GCP, Datadog, and New Relic}
-\end{cvskills}
+\begin{cvparagraph}
+\textbf{Engineering Leadership:} Engineering Management, global and distributed teams, hiring, performance management, coaching and career development, organizational change, Agile delivery, stakeholder alignment, and cross-functional leadership.
+
+\textbf{Architecture and Delivery:} System design, SaaS architecture, reliability, incident management, observability, CI/CD, automated testing, technical-debt prioritization, APIs, and security remediation.
+
+\textbf{Application Development and Platforms:} Ruby, Ruby on Rails, JavaScript, React, PostgreSQL, MongoDB, Docker, Kubernetes, Helm, GCP, Datadog, and New Relic.
+
+\textbf{AI-Assisted Engineering:} GitHub Copilot, Claude Code, Codex, AI agents, MCP, automated code review and testing, and AI adoption and governance.
+\end{cvparagraph}
 
 \cvsection{Professional Experience}
 \begin{cventries}
-  \cventry{Software Engineering Manager}{Finalsite}{Glastonbury, CT, USA}{2021--Present}{
-    \begin{cvitems}
-      \item {Lead distributed engineering teams across the US, Europe, and India, delivering reliable, scalable SaaS applications in a fast-paced product environment.}
-      \item {Reduced the client-facing bug backlog by 25\% through focused triage, stronger testing practices, and improved deployment workflows.}
-      \item {Hire, coach, and develop engineers and technical leaders through performance management, career development, technical mentorship, and increased ownership.}
-      \item {Built onboarding systems that enabled engineers to contribute production code within their first week.}
-      \item {Partner with Product and Engineering leaders to translate business priorities into technical strategy, system design, and executable engineering plans.}
-      \item {Drive AI adoption across engineering workflows, developing agents, skills, commands, and MCP-based tooling while promoting practical AI fluency across the organization.}
-    \end{cvitems}}
+  \cventry
+    {Software Engineering Manager}
+    {Finalsite}
+    {Glastonbury, Connecticut, USA}
+    {2021--Present}
+    {
+      \begin{cvitems}
+        \item {Lead distributed engineering teams responsible for a mature CMS platform and related SaaS applications, with peak responsibility for 4 teams, 11 employees, and 6 contractors across the US, Europe, and India.}
+        \item {Serve as Engineering Manager and initial technical lead for Launchpad, reducing implementation-information collection from 200+ hours to less than one hour and shortening delivery of a styled working site from months to days.}
+        \item {Helped lead a platform reorganization through a 44\% workforce reduction, from 25 to 14 engineers, consolidating four teams into two and subsequently reducing high/critical defects 68\%, from 38 to 12.}
+        \item {Helped build a global engineering organization by recruiting in Poland and integrating an acquired India-based team, coaching engineers through a transition from Python/.NET backgrounds toward greater Ruby on Rails independence.}
+        \item {Drove adoption of AI-assisted development to 100\% of the engineering team, introducing Claude Code, reusable agents and skills, automated review and testing, and practices addressing code-review, QA, governance, and human-accountability challenges.}
+        \item {Lead production reliability and security response; during a customer security incident, coordinated blast-radius analysis and engineering remediation with immediate mitigation in approximately 30 minutes and permanent fixes within 5 to 6 hours.}
+        \item {Develop engineers and emerging leaders through coaching, ownership opportunities, structured development plans, and promotion advocacy.}
+        \item {Partner with Product and Engineering leadership on quarterly planning, architecture, technical debt, capacity, delivery tradeoffs, build-vs-buy evaluations, and operational risk decisions.}
+      \end{cvitems}
+    }
 
-  \cventry{Senior Web Developer}{}{}{2010--2021}{
-    \begin{cvitems}
-      \item {Led technical design and architecture for scalable web applications, establishing engineering practices for maintainability, performance, and code quality.}
-      \item {Built and maintained production SaaS applications using Ruby on Rails, JavaScript, PostgreSQL, and MongoDB.}
-      \item {Drove the transition from ColdFusion to Ruby on Rails, rapidly adopting the new stack and helping engineers migrate applications and development practices.}
-      \item {Improved accessibility and responsive design across customer-facing applications while mentoring developers on technical design and engineering practices.}
-    \end{cvitems}}
+  \cventry
+    {Technical Lead / Team Lead / Senior Web Developer}
+    {Finalsite}
+    {Glastonbury, Connecticut, USA}
+    {2010--2021}
+    {
+      \begin{cvitems}
+        \item {Progressed from Senior Web Developer into team and technical leadership, providing architectural guidance across multiple CMS applications and mentoring engineers.}
+        \item {Helped transition engineering from ColdFusion to Ruby on Rails, developing expertise in the new stack and leading Rails-based products including Posts and Messages.}
+        \item {Built and maintained production applications across media management, calendars, athletics, forms, messaging, and CMS functionality using Ruby on Rails, JavaScript, PostgreSQL, and MongoDB.}
+        \item {Established structured developer onboarding practices covering codebase architecture, development tooling, automated testing, and first production contributions.}
+      \end{cvitems}
+    }
 
-  \cventry{Web Developer}{ORLive.com}{West Hartford, CT, USA}{2005--2010}{
-    \begin{cvitems}
-      \item {Built medical CME learning management systems paired with medical-procedure broadcasts.}
-      \item {Created a patient portal connecting prospective surgery patients with surgeons and hospitals, supporting monetization of broadcast marketing.}
-    \end{cvitems}}
+  \newpage
+  \cventry
+    {Team Lead / Senior Web Developer / Web Developer}
+    {ORLive.com}
+    {West Hartford, Connecticut, USA}
+    {2005--2010}
+    {
+      \begin{cvitems}
+        \item {Progressed from Web Developer to Senior Developer and Team Lead while building applications supporting live and archived surgical-procedure broadcasts.}
+        \item {Developed patient-registration, physician-discovery, and continuing-medical-education workflows connecting patients and healthcare professionals with hospitals and care providers.}
+        \item {Led developers and gained hands-on experience with production scalability, SQL/query optimization, session management, and high-traffic event support.}
+      \end{cvitems}
+    }
 
-  \cventry{Graphic Designer / Web Developer}{Timeframe, Inc.}{Peterborough, NH, USA}{2003--2005}{
-    \begin{cvitems}
-      \item {Modernized a Lasso/FileMaker Pro customer portal to PHP/MySQL and automated online ordering, contributing to increased sales.}
-      \item {Combined visual design, illustration, and web development in client-facing digital work.}
-    \end{cvitems}}
-
+  \cventry
+    {Graphic Designer / Web Developer}
+    {Timeframe, Inc.}
+    {Peterborough, New Hampshire, USA}
+    {2003--2005}
+    {
+      \begin{cvitems}
+        \item {Refactored a customer portal from Lasso/FileMaker Pro to PHP/MySQL, combining frontend, backend, and visual-design responsibilities.}
+        \item {Automated online customer ordering to provide a more direct purchasing workflow and support increased online sales.}
+      \end{cvitems}
+    }
 \end{cventries}
 
-\cvsection{Education}
+\cvsection{Selected Projects and Recognition}
 \begin{cvparagraph}
-\textbf{Keene State College} \hfill Bachelor of Science in Graphic Design, Keene, New Hampshire | 2001
+\textbf{Launchpad / Team Mosaic, Finalsite Hackathon Winner:} Helped develop a hackathon-winning site-provisioning system that automated creation and styling of modular CMS websites, reducing 4+ hours of manual Professional Services work to minutes per typical site. The prototype became production functionality within Launchpad.
+
+\textbf{Bug Butler:} Built an AI-assisted engineering-management CLI integrating Jira data to surface bug trends, SLA risks, triage needs, sprint statistics, stale issues, and goal progress across engineering projects.
+
+\textbf{AI Engineering Transformation:} Helped establish AI Champions, training, reusable engineering skills, automated code review, and test-generation practices while preserving human accountability and developer ownership of quality.
+
+\textbf{Reliability and Incident Leadership:} Coordinated response to a major messaging outage, clearing queued communications within approximately 12 hours and introducing graceful-degradation controls for future dependency failures.
+
+\textbf{People Development:} Participated in hiring and onboarding at least 14 engineers and technical leaders, developing emerging technical leaders and advocating for promotions and sustainable career progression.
+\end{cvparagraph}
+
+\cvsection{Education}
+\begin{cventries}
+  \cventry
+    {Bachelor of Science, Graphic Design}
+    {Keene State College}
+    {Keene, New Hampshire}
+    {2001}
+    {}
+\end{cventries}
+
+\cvsection{Professional Development}
+\begin{cvparagraph}
+\textbf{Certified ScrumMaster, Scrum Alliance} | Certification expired June 2026; renewal planned\\
+LeaderOS Leadership Development, React.js Development, Full-Stack React Development, Python Programming
 \end{cvparagraph}
 
 \end{document}
